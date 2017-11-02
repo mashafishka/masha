@@ -1,15 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  //= tpl/head.html
+  <head>
+  
+    <!--META-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  
+    <!--SEO-->
+    <meta name="Description" content="">
+    <meta name="Rating" content="">
+    <meta name="Author" content="">
+    <meta name="Robots" content="index,follow">
+  
+    <!--CONFIG-->
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/main.css">
+   
+    <title>Document</title>
+  </head>
 
 <body>
 
-  //= tpl/counter.html
+  <!--[if lt IE 10]>
+  <p class="browsehappy">Вы используете <strong>УСТАРЕВШИЙ Internet Explorer</strong> браузер. Пожалуйста, <a href="http://browshappy.com/">обновите Ваш Браузер</a> чтобы увидеть больше возожностей на сайтах!</p>
+  <![endif]-->
+  
+  <!--Preloader-->
+  <div class="preloader"></div>
 
   <div class="app">
 
-    //= tpl/header.html
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-md-offset-0 col-sm-offset-0 col-xs-2 col-xs-offset-1">
+    
+            <!--logo-->
+                <a class="logo" href="#"><img src="assets/img/logo.png" alt="">
+                </a>
+            </div>
+         </div>
+        
+        <div class="col-lg-5 col-lg-offset-3 col-md-6 col-sm-8 col-sm-offset-1 col-xs-5 col-xs-offset-3">
+      
+          <!--navigation-->
+          <nav class="header-nav">
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Testimonials</a></li>
+            </ul>
+          </nav>
+        
+        </div>
+    
+        <div class="col-md-3 col-md-offset-1 col-sm-3 col-xs-2">
+    
+          <!--socials-->
+          <ul class="header-socials">
+            <li class="facebook"><a href="#"><img src="assets/img/f.png" alt=""></a></li>
+            <li class="twitter"><a href="#"><img src="assets/img/twit.png" alt=""></a></li>
+            <li class="google"><a href="#"><img src="assets/img/goog.png" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
 
     <section class="wr-intro">
       <div class="container">
@@ -215,10 +277,30 @@
         </div>
     </section>
 
-    //= tpl/footer.html
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3">
+    
+            <!--footer-icons-->
+              <ul class="socials">
+                <li><a href="#"><i class="icon-andoid"><img src="assets/img/footer-andr.png" alt=""></i></a></li>
+                <li><a href="#"><i class="icon-apple"></i><img src="assets/img/footer-apple.png" alt=""></a></li>
+                <li><a href="#"><i class="icon-window"></i><img src="assets/img/footer-wind.png" alt=""></a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1">
+              <small>&copy; 2015<strong>Pixelhint.com.</strong>  All Rights Reserved</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 
-  //= tpl/scripts.html
+  <!--JS-->
+  <script type="text/javascript" src="assets/js/libs.min.js"></script>
+  <script type="text/javascript" src="assets/js/main.js"></script>
 
 </body>
 </html>

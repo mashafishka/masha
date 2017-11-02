@@ -50,7 +50,13 @@ gulp.task('sass', function () {
 // libs js
 gulp.task('js:libs', function () {
 	gulp.src([
-		'bower_components/jquery/dist/jquery.min.js'
+		'bower_components/jquery/dist/jquery.min.js',
+		'bower_components/bootstrap/dist/js/bootstrap.min.js',
+		'bower_components/jquery.easing/js/jquery.jquery.easing.min.js',
+		'bower_components/owl.carousel/dist/owl.carousel.min.js',
+		'plugins/feelform.min.js',
+		'plugins/jquery.bpopup.min.js',
+		'bower_components/wow/dist/wow.js'
 		])
 	.pipe(concat('libs.min.js'))
 	.pipe(uglify())
